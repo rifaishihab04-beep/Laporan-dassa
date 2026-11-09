@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="100%" stop-color="#3730a3" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#818cf8" />
+    </linearGradient>
+  </defs>
+  <!-- Background with squircle border -->
+  <rect width="512" height="512" rx="128" fill="url(#bgGrad)" />
+  <!-- Inner card ledger shape -->
+  <rect x="96" y="96" width="320" height="320" rx="36" fill="#ffffff" fill-opacity="0.1" stroke="#ffffff" stroke-width="8" stroke-opacity="0.25" />
+  <!-- Financial bar chart / coins emblem -->
+  <rect x="144" y="272" width="56" height="88" rx="12" fill="url(#accentGrad)" />
+  <rect x="228" y="208" width="56" height="152" rx="12" fill="#10b981" />
+  <rect x="312" y="152" width="56" height="208" rx="12" fill="#6366f1" />
+  <!-- Trend arrow line -->
+  <path d="M156 240 L240 176 L324 120 L356 144" fill="none" stroke="#ffffff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+  <polygon points="356,124 372,148 344,152" fill="#ffffff" />
+</svg>
